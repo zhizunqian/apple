@@ -1,0 +1,28 @@
+.box{
+	width: 100px;
+	height: 100px;
+	border:2px solid red;
+	transition:all 0.6s ease;
+	animation-name:ab;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-delay:2s;
+	animation-direction:alternate;
+}
+@keyframes ab{
+	0%,100%{
+	transform:translate3d(0,0,0) rotate(45deg);
+	}
+	25%{
+	transform:translate3d(1250px,0,0)  rotate(90deg);	
+	}
+	50%{
+	transform:translate3d(1250px,550px,0)  rotate(135deg);	
+	}
+	75%{
+	transform:translate3d(0,550px,0)  rotate(150deg);	
+	}
+}
+/* .box:hover{
+	transform:scale(2.2,2.2);
+} */
