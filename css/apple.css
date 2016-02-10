@@ -40,6 +40,11 @@ a{
 	position: relative;
 	overflow: hidden;
 }
+.machtml{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 .smallul>.a,.smallul>.j{
 	width: 48px;
 	background-position: center center;
@@ -160,7 +165,27 @@ input{
 	-webkit-transform:translateX(00px);
 
 }
+#sousuo:checked~.nav .bigul .menu{
+	visibility: hidden;
+}
+#sousuo:checked~.nav .sear-show {
+    display: block;
+}
+#sousuo:checked~.artical .sec{
+	background: #ccc;
+}
 
+
+
+#close:checked~.nav .bigul .menu{
+	visibility: visible;
+}
+#close:checked~.nav .sear-show {
+    display: none;
+}
+#close:checked~.artical .sec{
+	background: #fff;
+}
 #xiala .sea{
 	display: block;
 	width: auto;
@@ -169,14 +194,123 @@ input{
 	    font-size: 20px;
     line-height: 2.35;
 }
+.sear-show{
+	display: none;
+}
+.sear-closei{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.searcon{
+	position: absolute;
+	top: 0;
+	left: 25.46667%;
+	width: 50.66667%;
+	height: 100vh;
+	z-index: 10;
+}
+.sear-form{
+	height: 44px;
+	line-height: 44px;
+}
+.sear-conxia{
+	font-size: 15px;
+	line-height: 2;
+	font-weight: 400;
+	background: #fff;
+	color: #999;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.sear-wrap{
+	padding-left: 40px;
+	position: relative;
+	z-index: 2;
+	    box-sizing: content-box;
+}
+.searw-input{
+	font-size: 16px;
+	line-height: 1.375;
+	font-weight: 400;
+	color: #fff;
+	width: 100%;
+	height: 1.375em;
+	display: block;
+	    border: none;
+	    height: 44px;
+	    line-height: 44px;
+    background-color: transparent;
+}
+.ii{
+	    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 44px;
+        background-size: 20px 44px;
+    background-image: url("../images/image_ss.svg");
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.eg{
+	border-top: none;
+	margin: 0 40px;
+	padding: 24px 0 15px;
+}
+.eg h3{
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 400;
+	color: #999;
+}
+.eglist{
+	padding-top: 5px;
+}
+.egitem{
+	margin: 4px -32px;
+}
+.nav .egitem>a{
+	color: #999;
+	display: block;
+	padding: 0 48px;
+}
+.sear-close{
+	opacity: 1;
+	position: absolute;
+	z-index: 3;
+	width: 38px;
+	height: 44px;
+	right: 162px;
+	top: 0;
+	color: #fff;
+	    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+	    border: none;
+	background-color: transparent;
+}
 
-
-
-
-
-
-
-
+.nav .sear-close span{
+	display: block;
+	width: 18px;
+	height: 1px;
+	background-color: #fff;
+	position: absolute;
+    top: 28px;
+    z-index: 1;
+}
+.nav .sear-close span:first-child{
+	transform:rotateZ(-45deg);
+	transform-origin:0 100%;
+	left: 8px;
+}
+.nav .sear-close span:last-child{
+	transform:rotateZ(45deg);
+	transform-origin:100% 100%;
+	left: 1px;
+}
 .smallul a{
 	height: 48px;
 }
@@ -335,14 +469,14 @@ input{
 	text-align: center;
 	position: relative;
 }
-.cpinner h1{
+.cpinner .cpinner-ap{
 	    background-size: 136px 50px;
     height: 50px;
     width: 136px;
     background-image: url(../images/logo_appletv_medium.png);
 margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.5em;
     text-indent: -2000px;
 }
 .cpinner h2{
@@ -353,15 +487,36 @@ margin-left: auto;
 	    letter-spacing: -0.025em;
 	    margin-top: 0;
 }
+.cpinner1 .cpinner-h1{
+	font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.cpinner1 .cpinner-h2{
+	    font-size: 24px;
+    line-height: 1.3542;
+    font-weight: 200;
+    margin-bottom: 0.25em;
+}
 .learn{
-	
+	z-index: 4;
 	    font-size: 20px;
     line-height: 1.4;
     font-weight: 200;
 }
+.learn a{
+	white-space: nowrap;
+    text-decoration: none;
+    pointer-events: all;
+    display: inline-block;
+}
 .learn span{
 	color: #08c;
 }
+    .learn span:hover{
+    color: #000;
+  }
 .learn li{
 	display: inline-block;
 	margin-left: 0.3em;
@@ -399,8 +554,21 @@ margin-left: auto;
 	margin: 0;
 	padding: 0;
 }
-.tv{
-	    background-size: 865px 466px;
+.copy1{
+	    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cpinner1{
+	padding-top: 104px;
+	text-align: center;
+}
+.tv,.tu{
+   background-size: 865px 466px;
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 865px;
@@ -411,7 +579,10 @@ margin-left: auto;
     left: auto;
     bottom:-116px;
     right: -433px;
+}
+.tv{
 	background-image: url(../images/home_hero_apple_tv_evergreen_medium.jpg);
+
 }
 .dot{    
 	    position: absolute;
@@ -538,8 +709,27 @@ margin-left: auto;
 .footercon .secb2 a:hover{
 	text-decoration: underline;
 }
-
-
+.figurea,.figureb{
+	    position: absolute;
+    right: 0;
+    bottom: 28px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-position: center bottom;
+}
+@media(max-width: 1550px){
+	.figurea{
+	    background-image: url(../images/home_hero_ssn_large.png);
+    background-size: 1433px 610px;
+      }
+      .figureb{
+      	 background-image: url(../images/hero_large.png);
+    background-size: 840px 360px;
+      }
+}
 @media (max-width:1068px) {
 	.promo li{
 		width: 50%;
@@ -560,6 +750,16 @@ margin-left: auto;
 	.dd{
 		background: url(../images/promo_startsomethingnew_iphone6s_medium.jpg);	
 	}
+	.figurea{
+		    background-image: url(../images/home_hero_ssn_medium.png);
+    background-size: 1400px 596px;
+    background-position: center bottom;
+	}
+	.figureb{
+      	 background-image: url(../images/hero_medium.png);
+    background-position: center bottom;
+    background-size: 718px 349px;
+      }
 }
 @media (max-width: 735px) {
 	.column{
@@ -586,7 +786,31 @@ margin-left: auto;
       	content: "+";
       	float: right;
       }
-
+	.figurea{
+		    background-image: url(../images/home_hero_ssn_small.png);
+    background-size: 658px 280px;
+    background-position: center bottom;
+	}
+	.figureb{
+      	 background-image: url(../images/hero_xsmall.png);
+    background-position: center bottom;
+    background-size: 300px 156px;
+      }
+	.cpinner1{
+	padding-top: 70px;
+}
+	.cpinner1 .cpinner-h1{
+	font-size: 36px;
+    line-height: 1.1429;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.cpinner1 .cpinner-h2{
+	    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 200;
+    margin-bottom: 0.25em;
+}
 	.promo li{
 		width: 100%;
 	}
@@ -618,9 +842,9 @@ margin-left: auto;
     width: 117px;
      background-image: url(../images/logo_appletv_small.png);
      }
-     .learn {
+     .learn{
     color: #08c;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.2857;
     font-weight: 400;
   }
@@ -633,7 +857,7 @@ margin-left: auto;
      	padding-top: 50px;
      }
      .cpinner h2{
-     	font-size: 26px;
+     	font-size: 24px;
      }
      .footercon section{
 	padding: 20px 0 ;

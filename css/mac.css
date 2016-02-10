@@ -1,0 +1,956 @@
+.family{
+	position: absolute;
+	width: 100%;
+	/* margin-top: 44px; */
+	top: 44px;
+	z-index: 100;
+	background: rgba(242,242,242,0.6);
+	overflow: hidden;
+	text-align: center;
+}
+.family-wrap{
+	height: 110px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.family-items{
+	margin: 0 34px;
+	padding: 0;
+	padding-bottom: 49px;
+}
+.family-item{
+	padding: 0 20px;
+	display: inline;
+}
+.family-itmk{
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin-top: 13px;
+	margin-bottom: 26px;
+	vertical-align: top;
+}
+.family-icon{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-position: center bottom;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.mb{
+	padding-right: 22px;
+	padding-left: 0 !important;
+}
+.mb .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/macbook_large.svg);
+	background-size: 46px 54px;
+	width: 46px;
+	height: 54px;
+}
+.family-label{
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 400;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 8px;
+	color: #333;
+	transition: opacity 200ms linear;
+}
+.mbair,.mbpro{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.mbair .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/macbookair_large.svg);
+	background-size: 52px 54px;
+	width: 52px;
+	height: 54px;
+}
+.mbpro .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/macbookpro_large.svg);
+	background-size: 58px 54px;
+	width: 58px;
+	height: 54px;
+}
+.imac{
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.imac .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/imac_large.svg);
+	background-size: 58px 54px;
+	width: 58px;
+	height: 54px;
+}
+.mac{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.mac .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/macpro_large.svg);
+	background-size: 21px 54px;
+	width: 21px;
+	height: 54px;
+}
+.macmin{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.macmin .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/macmini_large.svg);
+	background-size: 21px 54px;
+	width: 21px;
+	height: 54px;
+}
+.acc{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.acc .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/mac_acc_large.svg);
+	background-size: 21px 54px;
+	width: 21px;
+	height: 54px;
+}
+.osx{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.osx .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/mac_osx_large.svg);
+	background-size: 30px 54px;
+	width: 30px;
+	height: 54px;
+}
+.com{
+	padding-left: 18px;
+	padding-right: 0 !important;
+}
+.com .family-icon{
+	background-repeat: no-repeat;
+	background-image: url(../images/mac_comp_large.svg);
+	background-size: 70px 54px;
+	width: 70px;
+	height: 54px;
+}
+/*mians*/
+.mains{
+	overflow: hidden;
+}
+.maint{
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+.pmore .more{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #08c;
+}
+.pmore a:hover{
+	text-decoration: underline;
+}
+.pmore .more:after{
+	top: 0;
+	padding-left: 0.3em;
+}
+.row:after{
+	clear: both;
+}
+.row:before,.row:after{
+	content: "";
+	display: table;
+}
+.pconin{
+		position: relative;
+		text-align: center;
+}
+.pc{text-align: center;}
+.large5{
+	width: 41.6667%
+}
+.column{
+	min-height: 2px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.large-center {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.pcac{
+	position: relative;
+	z-index: 15;
+	text-decoration: 25px;
+}
+.large-17{
+	margin-left: 58.3333%;
+}
+.large-4{
+	width: 33.3333%;
+}
+.pp{
+	text-align: center;
+}
+.pcom{
+	margin-bottom: 0;
+	text-align: center;
+}
+.shop-head{
+	display: block;
+	text-align: center;
+}
+
+.column .shop-more{
+	color: #08c;
+}
+.bill-center{
+	text-align: center;
+}
+.bill{
+	position: relative;
+}
+.billcon{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}
+.bill-wrap{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+.shop-con{
+	margin-bottom: 70px;
+}
+.ph{
+	margin-bottom: 15px;
+}
+p{
+		margin-bottom: 8px;
+	margin:0 0 1em 0;
+}
+.copys{
+
+	    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.pfcon .more{color: #08c;
+}   
+.pimac{
+	padding-top:550px;
+	padding-bottom: 502px;
+	position: relative;
+	}
+.pcon{
+		width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 100%;
+		position: relative;
+		/* overflow: hidden; */
+	}
+	.large-8{
+		width: 66.6667%;
+	}
+	.pconin{
+		top:-340px;
+		z-index: 10;
+		left: 30px;
+	}
+	.pheadl{
+		font-size: 72px;
+		line-height: 1.0556;
+		font-weight: 200;
+		letter-spacing: -0.024em;
+		margin-bottom: 0;
+	}
+	.pshead{
+		margin-bottom: 8px;
+		font-size: 42px;
+		line-height: 1.1429;
+		font-weight: 200;
+	}
+	.pmore{
+		font-size: 24px;
+		line-height: 2.5em;
+		font-weight: 200;
+		margin-top: 0.625em;
+	}
+	.large-12{
+		width: 100%;
+	}
+	 .img-imac{
+      	top:-266px;
+      	left: 0;
+      	width: 987px;
+      	height: 799px;
+      	background-size: 987px 799px;
+      	background-image: url(../images/hero_large.jpg);
+      	background-repeat: no-repeat;
+      	position: absolute;
+      }
+       .img-acc{
+      	background-size: 1661px 314px;
+    height: 314px;
+    width: 1661px;
+    background-image: url(../images/apple_accessories_large.jpg);
+      	background-repeat: no-repeat;
+      	position: absolute;
+      	top: 15px;
+      	left: -527px;
+      	z-index: -1;
+    padding: 0;
+    margin-top:  176px;
+  }
+  .pmac{
+  	padding-top: 515px;
+  	padding-bottom: 375px;
+  }
+  .img-mac{
+  	left: -62px;
+    top: -210px;
+    background-size: 674px 844px;
+    height: 844px;
+    width: 674px;
+    background-image: url(../images/macbook_large.jpg);
+    	background-repeat: no-repeat;
+      	position: absolute;
+  	margin: 0;
+  	padding: 0;
+  }
+  .ppro{
+  	padding-top: 255px;
+  	padding-bottom: 245px;
+  }
+   .img-pro{
+  	left:188px;
+    top:  -123px;
+    background-size: 979px 523px;
+    height: 523px;
+    width: 979px;
+    background-image: url(../images/mbpr_large.jpg);
+    	background-repeat: no-repeat;
+      	position: absolute;
+  	margin: 0;
+  	padding: 0;
+  	z-index: -1
+  }
+  .large-7 {
+    width: 58.3333%;
+}
+  .pair{
+  	padding-top: 263px;
+  	padding-bottom: 280px;
+  }
+  .img-pair{
+   	left:-183px;
+    top:  -115px;
+    background-size: 927px 474px;
+    height: 474px;
+    width: 927px;
+    background-image: url(../images/mba_large.png);
+    	background-repeat: no-repeat;
+      	position: absolute;
+  	margin: 0;
+  	padding: 0;
+  	z-index: -1	
+  }
+  .medium-51{
+  	margin-left: 41.6667%;
+  }
+  .pcom{
+  	margin-top: 50px;
+  	margin-bottom: 0;
+  	position: relative;
+  }
+  .pccon{
+  	padding-bottom: 70px;
+  	padding-top: 90px;
+  }
+  .img-pcom{
+    background-size: 923px 435px;
+    height: 435px;
+    width: 923px;
+    background-image: url(../images/compare_large.jpg);
+    	background-repeat: no-repeat;
+      	/* position: absolute; */
+  	margin-top: 40px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 0;
+  	z-index: -1	
+  }
+  .pheadl2{
+  	font-size: 52px;
+  	line-height: 1.0865;
+  	font-weight: 200;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+   .img-pcom1{
+    background-size: 1571px 384px;
+    height: 384px;
+    width: 1571px;
+    background-image: url(../images/startsomethingnew_banner_mac_large.png);
+    	background-repeat: no-repeat;
+      	/* position: absolute; */
+      	border: 0;
+      	left: 50%;
+  	margin-left: -445px;
+  	margin-right: auto;
+  }
+  .shop{
+  	padding-top:99px;
+  }
+  .shop-copy{
+  	font-size: 18px;
+  	line-height: 1.4444;
+  	font-weight: 400;
+  }
+  .shop-more{
+  	font-size: 18px;
+  	line-height: 1.5;
+  	font-weight: 400;
+  }
+  .shop-icon{
+  	background-size: 37px 41px;
+    height: 41px;
+    width: 37px;
+    background-image: url(../images/icon_pickup_medium.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .shoph{
+  	font-size: 28px;
+	font-weight: 200;
+	    margin-bottom: 0.25em;
+    margin-top: 0.6429em;
+}
+  .large-6{
+  	width: 50%;
+  }
+  .billimg{
+  	background-image: url(../images/accessories_large.jpg);
+  	background-repeat: no-repeat;
+  	min-height: 450px;
+  	    position: relative;
+    background-size: cover !important;
+    background-position: center top;
+    margin: 0;
+    padding: 0
+  }
+  .icloud{
+  	margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  	 background-size: 765px 315px;
+    height: 315px;
+    width: 765px;
+    background-image: url(../images/partnership_large.png);
+    background-repeat: no-repeat;
+  }
+  .posx{
+  	padding-top: 100px;
+  	background: #fafafa;
+  	padding-bottom: 110px;
+  	text-align: left;
+  }
+  .pfea{
+  	margin-top: 76px;
+  	padding-left: 0;
+  }
+  .osxs{
+  	width: 45%;
+  }
+  .app-icon{
+  	float: none;
+  	display: inline-block;
+  	vertical-align: top;
+  	background-size: 52px 52px;
+    height: 52px;
+    width: 52px;
+    background-image:url(../images/hero_icon_large.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  	margin-right: 16px;
+  }
+  .pihead{
+  	float: none;
+  	display: inline-block;
+  	vertical-align: bottom;
+          font-size: 42px;
+    line-height: 1.1429;
+    font-weight: 200;
+    letter-spacing: 0em;
+  }
+  .iclouds{
+  	left: 10%;
+  	width: 45%;
+  	margin-left: 10%;
+  }
+  .pfcon{
+  	margin-left:76px ;
+  }
+  .gcopy .more{
+  	color: #08c;
+  }
+  .abrower{
+  	position: relative;
+  	overflow: hidden;
+  	text-align: center;
+  }
+  .apptu-abro{
+  	margin-left: auto;
+  	margin-right: auto;
+  	position: relative;
+  }
+  .abro-items:after,.abro-items:before{
+  	content:"";
+  	display: table;
+  }
+  .abro-item:first-child,.abro-item:last-child{
+  	padding-left: 0 !important;
+  }
+  .abro-item{
+  	display: inline-block;
+  	padding: 0;
+  }
+  .currents{
+  	border-bottom-color: #333;
+  }
+  .app-item{
+  	font-size: 14px;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #333;
+  }
+  .padd{
+  	position: relative;
+  	text-align: center;
+  }
+  .gbintu{
+  	    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+  }
+  .gbintu:after,.gbintu:before{
+  	content: "";
+  	display: table;
+  }
+   .img-gbintu{
+  	margin-right: 0;
+  	float: right;
+  }
+  .gbintu .more{
+  	color: #08c;
+  }
+  .gbuilin{
+  	position: relative;
+  	text-align: left;
+  	height: 300px;
+  }
+  .pbill{
+  	position: relative;
+  	margin-bottom: 7px;
+  }
+  .pbill-img:before{
+  	content: "";
+  	display: block;
+  	padding-bottom: 41.6667%;
+  }
+	
+
+@media(max-width: 1068px){
+	.p{
+		padding-bottom: 90px;
+	}
+	.pimac{
+	padding-top:375px;
+	padding-bottom: 325px;
+	position: relative;
+	}
+	.pcon{
+		width: 692px;
+	}
+	.pcont{padding-top: 67px;}
+	.pconin{
+		top:-180px;
+		z-index: 10;
+		left: 25px;
+	}
+	.pheadl{
+		font-size: 64px;
+		line-height: 1.0625;
+		font-weight: 200;
+		letter-spacing: -0.02em;
+		margin-bottom: 0;
+	}
+	.pshead{
+		margin-bottom: 8px;
+		font-size: 32px;
+		line-height: 1.125;
+		font-weight: 200;
+	}
+	.pmore{
+		font-size: 18px;
+		line-height: 1.45;
+		font-weight: 400;
+	}
+	.medium-12 {
+         width: 100%;
+      }
+      .medium-8 {
+        width: 66.6667%;
+     }
+      .medium-9 {
+      	  width: 75%;
+      }
+      .medium-6{
+      	width: 50%;
+      }
+      .img-imac{
+      	top:-142px;
+      	left: 0;
+      	width: 723px;
+      	height: 585px;
+      	background-size: 723px 585px;
+      	background-image: url(../images/hero_medium.jpg);
+      	background-repeat: no-repeat;
+      	position: absolute;
+      }
+      .img-acc{
+      	left: -175px;
+      	background-size: 979px 222px;
+    height: 222px;
+    width: 979px;
+    background-image: url(../images/apple_accessories_medium.jpg);
+      	background-repeat: no-repeat;
+      	position: absolute;
+      	top: 15px;
+      	z-index: -1;
+    padding: 0;
+    margin-top:  176px;
+  }
+  .pmac{
+  	padding-top: 420px;
+  	padding-bottom: 300px;
+  }
+  .img-mac{
+  	left: -22px;
+    top: -220px;
+    background-size: 524px 655px;
+    height: 655px;
+    width: 524px;
+    background-image: url(../images/macbook_medium.jpg);
+    	background-repeat: no-repeat;
+      	position: absolute;
+  	margin: 0;
+  	padding: 0;
+  }
+  .ppro{
+  	padding-top: 135px;
+  	padding-bottom: 105px;
+  }
+   .img-pro{
+  	left:68px;
+    top:  -93px;
+    background-size: 712px 380px;
+    height: 380px;
+    width: 712px;
+    background-image: url(../images/mbpr_medium.jpg);
+    	background-repeat: no-repeat;
+      	position: absolute;
+  	margin: 0;
+  	padding: 0;
+  	z-index: -1
+  }
+  .pair{
+  	padding-top: 183px;
+  	padding-bottom: 145px;
+  }
+  .img-pair{
+   	left:-120px;
+    top:  -135px;
+    background-size: 643px 380px;
+    height: 380px;
+    width: 643px;
+    background-image: url(../images/mba_medium.png);
+    	background-repeat: no-repeat;
+      	position: absolute;
+  	margin: 0;
+  	padding: 0;
+  	z-index: -1	
+  }
+  .medium-51{
+  	margin-left: 41.6667%;
+  }
+  .pcom{
+  	margin-top: 0;
+  	position: relative;
+  }
+  .pccon{
+  	padding-bottom: 70px;
+  	padding-top: 90px;
+  }
+  .img-pcom{
+    background-size: 611px 288px;
+    height: 288px;
+    width: 611px;
+    background-image: url(../images/compare_medium.jpg);
+    	background-repeat: no-repeat;
+      	/* position: absolute; */
+  	margin-top: 62px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 0;
+  	z-index: -1	
+  }
+  .pheadl2{
+  	font-size: 42px;
+  	line-height: 1.1429;
+  	font-weight: 200;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+  }
+   .img-pcom1{
+    background-size: 1068px 263px;
+    height: 263px;
+    width: 1068px;
+    background-image: url(../images/startsomethingnew_banner_mac_medium.png);
+    	background-repeat: no-repeat;
+      	/* position: absolute; */
+      	border: 0;
+      	left: 50%;
+  	margin-left: -343px;
+  	margin-right: auto;
+  }
+  .shop{
+  	padding-top: 72px;
+  }
+  .shop-copy{
+  	font-size: 16px;
+  	line-height: 1.5;
+  	font-weight: 400;
+  }
+  .shop-more{
+  	font-size: 16px;
+  	line-height: 1.5;
+  	font-weight: 400;
+  }
+  .shop-icon{
+  	background-size: 30px 34px;
+    height: 34px;
+    width: 30px;
+    background-image: url(../images/icon_pickup_medium.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .large-6{
+  	width: 50%;
+  }
+  .billimg{
+  	background-image: url(../images/accessories_medium.jpg);
+  	background-repeat: no-repeat;
+  	min-height: 450px;
+  	    position: relative;
+    background-size: cover !important;
+    background-position: center top;
+    margin: 0;
+    padding: 0
+  }
+  .icloud{
+  	margin-top: 25px;
+  	height: 278px;
+    width: 676px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/partnership_medium.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0
+  }
+  .posx{
+  	padding-top: 100px;
+  	background: #fafafa;
+  	padding-bottom: 110px;
+  	text-align: left;
+  }
+  .pfea{
+  	margin-top: 76px;
+  	padding-left: 0;
+  }
+  .osxs{
+  	width: 45%;
+  }
+  .app-icon{
+  	float: none;
+  	display: inline-block;
+  	vertical-align: top;
+  	background-size: 49px 49px;
+    height: 49px;
+    width: 49px;
+    background-image:url(../images/hero_icon_medium.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  	margin-right: 16px;
+  }
+  .pihead{
+  	float: none;
+  	display: inline-block;
+  	vertical-align: bottom;
+          font-size: 32px;
+    line-height: 1.125;
+    font-weight: 200;
+    letter-spacing: 0em;
+  }
+  .iclouds{
+  	left: 10%;
+  	width: 45%;
+  	margin-left: 10%;
+  }
+  .shoph{
+	font-weight: 200;
+	    margin-bottom: 0.25em;
+    margin-top: 0.6429em;
+  }
+
+   body{
+   	font-size: 18px;
+   	line-height: 1.45;
+   	font-weight: 400;
+   }
+  .gwrap{
+  	margin-top: 80px;
+  	margin-bottom: 110px;
+  }
+  .gpha{
+  	width: 576px;
+  	min-height: 52px;
+  }
+  .apptu{
+  	margin:30px -24px 45px;
+  }
+  .apptu-wrap{
+  	min-height: 91px;
+  }
+  .abro-items{
+  	padding-bottom: 49px;
+  	margin:0 34px;
+  	    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .app-item{
+  	min-height: 94px;
+  }
+  .img-photo{
+  	min-height: 65px;
+  	background-repeat: no-repeat;
+    background-size: 77px 77px;
+    height: 77px;
+    width: 77px;
+    background-image: url(../images/nav_icon_photos_large.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0
+  }
+  .img-gbintu{
+  	margin-right: 0;
+  	float: right;
+  	background-size: 475px 383px;
+    height: 383px;
+    width: 475px;
+    background-image:url(../images/bia_photos_medium.jpg);
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 0
+  }
+  .medium-11{
+  	margin-left: 8.3333%;
+  }
+  .img-icon{
+  	    background-size: 54px 54px;
+    height: 54px;
+    width: 54px;
+    background-image:url(../images/bia_photos_header_medium.png);
+       background-repeat: no-repeat;
+    margin:0;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .medium-5 {
+    width: 41.6667%;
+}
+.pbill-img{
+	background-image: url(../images/education_medium.jpg);
+	background-repeat: no-repeat;
+	    position: relative;
+    background-size: cover !important;
+    background-position: center top;
+    min-height: 450px;
+    margin: 0;
+    padding: 0;
+}
+.pbill1-img{
+	background-image: url(../images/education_medium.jpg);
+	background-repeat: no-repeat;
+	    position: relative;
+    background-size: cover !important;
+    background-position: center top;
+    min-height: 450px;
+    margin: 0;
+    padding: 0;
+}
+.pbill2-img{
+	background-image: url(../images/education_medium.jpg);
+	background-repeat: no-repeat;
+	    position: relative;
+    background-size: cover !important;
+    background-position: center top;
+    min-height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+
+}
+
+

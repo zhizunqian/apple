@@ -42,7 +42,9 @@ document.addEventListener("readystatechange",function(){
           	}
           }
 
+          var sec=document.querySelectorAll(".sec"); 
 
 
-	}
+
+  }
 },false)
