@@ -382,9 +382,7 @@ p{
   	padding: 0;
   	z-index: -1	
   }
-  .medium-51{
-  	margin-left: 41.6667%;
-  }
+
   .pcom{
   	margin-top: 50px;
   	margin-bottom: 0;
@@ -431,6 +429,9 @@ p{
   }
   .shop{
   	padding-top:99px;
+  }
+  .pcont{
+    position: relative;
   }
   .shop-copy{
   	font-size: 18px;
@@ -783,8 +784,22 @@ margin-bottom: 0.25em;
     line-height: 1.45;
     font-weight: 400;
   }
+  .shop-icon1{
+    background-repeat: no-repeat;
+    background-size: 36px 40px;
+    height: 40px;
+    width: 36px;
+    background-image:url(../images/shipping_icon_large.png);
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 	
+
+
+
+
+
 
 @media(max-width: 1068px){
 	.p{
@@ -1179,7 +1194,53 @@ margin-bottom: 0.25em;
   width: 62%; 
    margin-left: auto;
   margin-right: auto;
+}.img-photoimove{
+  background-image: url(../images/nav_icon_imovie_large.png);
 }
+.img-photogb{
+  background-image: url(../images/nav_icon_garageband_large.png);
+}
+.img-photop{
+  background-image: url(../images/nav_icon_pages_large.png);
+}
+.img-photon{
+  background-image: url(../images/nav_icon_numbers_large.png);
+}
+.img-photok{
+  background-image: url(../images/nav_icon_keynote_large.png);
+}
+.img-photos{
+  background-image: url(../images/nav_icon_safari_large.png);
+}
+.img-photofcpx{
+  background-image: url(../images/nav_icon_finalcut_large.png);
+}
+.img-photofcpxh{
+  background-image: url(../images/pro_finalcut_header_large.png);
+}
+.img-photolpx{
+  background-image: url(../images/nav_icon_logicpro_large.png);
+}
+.img-photom5{
+  background-image: url(../images/nav_icon_motion_large.png);
+}
+.img-photoc4{
+  background-image: url(../images/nav_icon_compressor_large.png);
+}
+.img-photom3{
+  background-image: url(../images/nav_icon_mainstage_large.png);
+}
+.img-gbintu1{
+  background-image: url(../images/pro_finalcut_medium.jpg);
+}
+ .app-item{
+    min-width: 0;
+  } 
+  .gbuilin{
+    position: relative;
+    text-align: left;
+    height: 383px;
+  }
 
 }
 

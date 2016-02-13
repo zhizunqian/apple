@@ -1,0 +1,465 @@
+.family{
+  position: absolute;
+  width: 100%;
+  top: 44px;
+  z-index: 100;
+  background: rgba(242,242,242,0.6);
+  overflow: hidden;
+  text-align: center;
+}
+.family-wrap{
+  height: 110px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.family-items{
+  margin: 0 34px;
+  padding: 0;
+  padding-bottom: 49px;
+}
+.family-item{
+  padding: 0 28px;
+   display: inline; 
+}
+.family-itmk{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 13px;
+  margin-bottom: 26px;
+  vertical-align: top;
+}
+.family-icon{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-position: center bottom;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ip{
+  padding-right: 28px;
+  padding-left: 0 !important;
+}
+.ip .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipadpro_large.svg);
+  background-size: 34px 54px;
+  width: 34px;
+  height: 54px;
+}
+.family-label{
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 8px;
+  color: #333;
+  transition: opacity 200ms linear;
+}
+.mbair .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipadair_large.svg);
+  background-size: 28px 54px;
+  width: 28px;
+  height: 54px;
+}
+.mbpro .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipadair_large.svg);
+  background-size: 28px 54px;
+  width: 28px;
+  height: 54px;
+}
+.imac .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipadmini_large.svg);
+  background-size: 22px 54px;
+  width: 22px;
+  height: 54px;
+}
+.mac .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipadmini_large.svg);
+  background-size: 22px 54px;
+  width: 22px;
+  height: 54px;
+}
+.macmin .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipad_acc_large.svg);
+  background-size: 33px 54px;
+  width: 33px;
+  height: 54px;
+}
+.com{
+  padding-right: 0 !important;
+}
+.com .family-icon{
+  background-repeat: no-repeat;
+  background-image: url(../images1/ipad_comp_large.svg);
+  background-size: 47px 54px;
+  width: 47px;
+  height: 54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure{
+  margin: 0;
+  padding: 0;
+}
+.fh{
+  padding-top: 253px;
+  color: #333;
+}
+.bgc{
+  background-color: #e8e8e8;
+}
+.fh_img{
+  background-image: url(../images1/ipadpro_large.png);
+  background-repeat: no-repeat;
+  background-size: 1612px 797px;
+  background-position: center top;
+  width: 100%;
+  height: 797px;
+  margin-top: 46px;
+}
+.fsc{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+.fpc{
+  text-align: center;
+}
+.fhh{    
+    font-size: 80px;
+    line-height: 0.95;
+    font-weight: 200;
+}
+.fpsh{
+  margin: 0 0 16px;
+}
+.main h3{
+      font-size: 42px;
+    line-height: 1.1429;
+    font-weight: 200;
+}
+.fmore{
+      font-size: 24px;
+    line-height: 1.3542;
+    font-weight: 200;
+    letter-spacing: normal;
+    margin-top: 8px;
+}
+.fmore .more{
+  color:#08c;
+  margin: 0 10px;
+}
+
+
+
+
+.img_pen{
+  background-image: url(../images1/pencil_large.png);
+  background-repeat: no-repeat;
+  background-size: 1693px 470px;
+  width: 1693px;
+  height: 470px;
+  margin-left: -52px;
+}
+.fhhi span{
+  display:block;
+}
+.fhhi{
+      font-size: 20px;
+    line-height: 1.8;
+    font-weight: 200;
+    letter-spacing: normal;
+}
+.fhhm{
+      font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 200;
+    letter-spacing: normal;
+}
+.fhho{
+  font-size: 32px;
+    line-height: 1.125;
+    font-weight: 200;
+    letter-spacing: normal;
+}
+.fhi{
+  overflow: hidden;
+}
+.fhi .fpc{
+  position: absolute;
+  top: 165px;
+  left: 53px;
+  z-index: 10;
+}
+.fpct {
+  padding-top: 97px;
+  position: relative;
+}
+.large-11 {
+    width: 91.6667%;
+}
+.large-push-1{
+    left: 8.3333%;
+    right: auto;
+}
+
+
+
+.fhi span,.ssk span{
+  display:block;
+}
+.img_skb{
+  background-image: url(../images1/keyboard_large.png);
+  background-repeat: no-repeat;
+  background-size: 1158px 762px;
+  width: 1158px;
+  height: 762px;
+  margin-left: -175px;
+  margin-top: 5px;
+  position: relative;
+}
+.ssk .fpc{
+  position: absolute;
+  left: 550px;
+  top: 151px;
+  z-index: 10;
+}
+.ssk{
+  padding-bottom: 120px;
+  padding-top: 173px;
+}
+
+
+.img_mini4{
+  background-image: url(../images1/ipadmini_large.jpg);
+  background-repeat: no-repeat;
+  background-size: 1215px 1011px;
+  width: 100%;
+  height: 1011px;
+  background-position: center top; 
+  /* position: relative; */
+}
+.mini4{
+  padding-top: 120px;
+  padding-bottom: 75px;
+}
+.mini4 .fpc{
+  position: relative;
+  margin-bottom: 54px;
+  z-index: 10;
+}
+.large-5 {
+    width: 41.6667%;
+}
+
+
+.air{
+  padding-bottom: 120px;
+}
+.img_air{
+  background-image: url(../images1/ipadair_large.jpg);
+  background-repeat: no-repeat;
+  background-size: 1103px 714px;
+  width: 1103px;
+  height: 714px;
+  position: relative;
+  margin-left: -337px;
+}
+.air .fpc{
+  position: absolute;
+    z-index: 10;
+    left: 427px;
+    top: 39px;
+}
+
+.ios_img{
+  background-image: url(../images1/ios_large.png);
+  background-repeat: no-repeat;
+  background-size: 870px 539px;
+  background-position: center top;
+  height: 539px;
+  position: relative;
+  width: 100%;
+}
+.ios_icon{
+  background-image: url(../images1/ios_icon_large.png);
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+  width: 85px;
+  height: 85px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ios .fpc{
+  position: relative;
+    z-index: 10;
+    padding-bottom: 16px;
+}
+.ios{
+  padding-top: 106px;
+}
+.large-10 {
+    width: 83.3333%;
+}
+.ios h3{
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+.ios p{
+  padding: 0 40px;
+}
+
+.img_com{
+  background-image: url(../images1/compare_large.png);
+  background-repeat: no-repeat;
+  background-size: 1263px 263px;
+  margin-top: 81px;
+  width: 100%;
+  height: 263px;
+  background-position: center top;
+}
+.com{
+      background: #f7f7f7;
+    padding-top: 94px;
+    padding-bottom: 73px;
+    overflow: hidden;
+}
+.main .fsh{
+  font-size: 52px;
+      line-height: 1.0865;
+    font-weight: 200;
+    letter-spacing: -0.014em;
+        margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+.fn{
+  float: none;
+}
+.pcom p .more{
+  color: #08c;
+}
+.pcom p a:hover{
+  text-decoration: underline;
+}
+.ipadbill{
+  background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    height: 600px;
+    width: 1440px;
+    background-image: url(../images1/accessories_large.jpg);
+    width: 100%;
+    background-position: center top;
+}
+
+.fbb .fsh{
+  color: #fff;
+}
+.fbb p .more{
+  color: #fff;
+}
+.fbb p .more:hover{
+  text-decoration: underline;
+}
+.billcon{
+  margin-top: -147px;
+}
+.edu-img{
+  background-repeat: no-repeat;
+    background-size: 2560px 1000px;
+    height: 1000px;
+    background-position: top left;
+    position: absolute;
+    left: 50%;
+    width: 2560px;
+    background-image: url(../images1/education_tile_large.jpg);
+    margin-left: -1280px;
+    margin-top: -200px;
+}
+
+.fbb a{
+  color: #fff;
+}
+.fbb{
+  position: relative;
+  margin-bottom: 7px;
+  color: #fff;
+  margin-top: 7px;
+  overflow: hidden;
+}
+.fbbw{
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+      text-align: center;
+}
+.fbbc{
+  position: relative;
+  margin: 170px auto;
+  top: auto;
+  width: 100%;
+}
+.fbbo{
+  z-index: 10;
+      background: rgba(0,0,0,0.3);
+    width: 100%;
+    color: #fff;
+}
+.fbbo .inb{
+  display: inline-block;
+}
+.fbbo .fsc{
+      margin: 40px auto 24px;
+      text-align: center;
+}
+
+.bus-img{
+  background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    height: 600px;
+    width: 1440px;
+    background-image: url(../images1/business_large.jpg);
+    width: 100%;
+    background-position: center top;
+}
+.get-img{
+  background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    height: 600px;
+    width: 1440px;
+    background-image: url(../images1/workshop_large.jpg);
+    width: 100%;
+    background-position: center top;
+}
